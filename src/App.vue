@@ -1,12 +1,16 @@
 <template>
     <div class="app">
         <h1>nihao</h1>
+        <Preson/>
     </div>
 </template>
 
 <script lang="ts">
+import Preson from './components/Preson.vue'
+
 export default {
-    name:'App'
+    name:'App',
+    components:{ Preson }
 }
 </script>
 
